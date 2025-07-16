@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr. P's Mercado</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mr. P's Mercado</h1>
+    <nav>
+      <a href="#store">Store</a>
+      <a href="#downloads">Free Files</a>
+      <a href="#contact">Custom Orders</a>
+    </nav>
+  </header>
+
+  <section id="store">
+    <h2>Store</h2>
+    <div class="product">
+      <h3>3D Printed Keychain</h3>
+      <p>$5.00</p>
+      <a href="https://buy.stripe.com/test_example" target="_blank">Buy Now</a>
+    </div>
+  </section>
+
+  <section id="downloads">
+    <h2>Free Files</h2>
+    <ul>
+      <li><a href="files/sample_model.stl" download>Sample 3D Model (.stl)</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Custom 3D Print Request</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="message" placeholder="Describe your idea..." required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Mr. P</p>
+  </footer>
+</body>
+</html>
